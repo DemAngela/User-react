@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    background-color: #999;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.mainInner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #555;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardWrapper {
+    padding: 15px 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.email {
+    margin: 10px 0;
+}
+
+.address {
+    margin: 10px 0;
+}
+
+.number {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.cardBtn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 5px;
+    margin: -10px -10px 0 0;
+}
+
+.cardBtn button {
+    padding: 5px 8px;
+}
+
+.delete:hover {
+    background-color: #e11616;
+}
+
